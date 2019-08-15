@@ -1,0 +1,30 @@
+table{
+    width: 100%;
+}
+
+/* Material form CSS */
+.full-width {
+  width: 100%;
+}
+.row {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  
+  .col {
+      margin-left: 20px;
+    flex: 1 !important;
+    margin-right: 20px !important;
+  }
+  
+  .col:last-child {
+    margin-right: 0;
+  }
+
+  td{
+      padding-left: 10px !important;
+  }
+
+  th{
+      padding-left: 10px !important;
+  }
